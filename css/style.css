@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('bebas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'bebas';
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#header {
+  padding-top: 560px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background: /*url("../images/bg1.jpg");*/ url("../images/bg2.jpg");
+  background-size: cover;
+  background-position: left 70%;
+  /*background-size: 120% auto;
+  background-position: 33% 20%;*/
+}
+
+#header > img {
+  margin: 0 50px;
+  vertical-align: baseline;
+}
+
+#header > span {
+  display: inline-block;
+  width: 200px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 7px 0;
+  color: white;
+}
+
+nav {
+  text-transform: uppercase;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: red;
+}
+
+.navbar-nav li {
+  padding: 0 20px;
+}
+
+.navbar-nav li a {
+   color: #fff;
+ }

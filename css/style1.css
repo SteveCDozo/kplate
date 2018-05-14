@@ -1,0 +1,48 @@
+#header-img {
+  height: 200px;
+}
+
+#header-img > img {
+  
+  background-position: center bottom;
+}
+
+#header {
+  /*position: relative;
+  top: -500px;*/
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  /*background: url("../images/bg1.jpg");
+  background-size: 120% auto;
+  background-position: 33% 20%;*/
+}
+
+#header > img {
+  margin: 0 50px;
+  vertical-align: baseline;
+}
+
+#header > span {
+  display: inline-block;
+  width: 200px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 7px 0;
+  color: black;
+}
+
+nav {
+  text-transform: uppercase;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: red;
+}
+
+.navbar-nav li {
+  padding: 0 20px;
+}
+
+.navbar-nav li a {
+   color: #fff;
+ }
